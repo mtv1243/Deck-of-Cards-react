@@ -1,0 +1,12 @@
+@import '../../sass/variables.scss';
+
+.marquis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30rem;
+    background-color: $darkBlue;
+    border: 1px solid #000;
+    padding: 1rem;
+    height: 3rem;
+}

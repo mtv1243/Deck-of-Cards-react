@@ -1,0 +1,12 @@
+@use '../../sass/variables.scss';
+
+button {
+    background-color: #192954;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #dbb20f;
+  border-radius: 30px;
+  margin: 10px 0;
+  height: 2rem;
+  cursor: pointer;
+}

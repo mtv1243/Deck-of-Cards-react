@@ -1,0 +1,15 @@
+@import './sass/_variables.scss';
+
+.App {
+  background-color: $medBlue;
+  color: #fff;
+  height: 100vh;
+  &--main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

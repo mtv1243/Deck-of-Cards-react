@@ -1,0 +1,31 @@
+@import '../../sass/variables.scss';
+
+.crib {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: $medBlue;
+    position: relative;
+    &--curtain {
+        position: absolute;
+        width: 80%;
+        height: 80%;
+        left: 10%;
+        top: 10%;
+        text-align: center;
+        background-color: $lightBlue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+    }
+    &--buttonWrapper {
+        position: absolute;
+        right: -8rem;
+    }
+}
+
+.hidden {
+    display: none;
+}

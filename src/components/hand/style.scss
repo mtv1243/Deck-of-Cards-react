@@ -1,0 +1,30 @@
+@import '../../sass/variables.scss';
+
+.hidden {
+    display: none;
+}
+
+.hand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $darkBlue;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #000;
+    &--title {
+        margin: 0;
+    }
+    &--wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $medBlue;
+        box-sizing: border-box;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+}

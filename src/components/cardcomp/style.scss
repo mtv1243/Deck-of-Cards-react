@@ -1,0 +1,44 @@
+.card {
+    cursor: pointer;
+    display: inline-block;
+    
+    font-family: essential-pragmatapro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    height: 50px;
+    width: 34px;
+    box-shadow: 0 0 5px rgba(0,0,0,0);
+
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: center 35px;
+
+    &--value {
+      font-size: 1.5em;
+    }
+      
+    &--Clubs {
+        background-image: url('../../suits_imgs/Clubs.png');
+      }
+      
+    &--Spades {
+        background-image: url('../../suits_imgs/Spade.png');
+      }
+      
+    &--Diamonds {
+        background-image: url('../../suits_imgs/Diamond.png');
+      }
+      
+    &--Hearts {
+        background-image: url('../../suits_imgs/Heart.png');
+      }
+      
+}
